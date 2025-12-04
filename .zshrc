@@ -130,8 +130,5 @@ alias mv='mv -i'  # prompt before overwrite
 # ============================================================================
 # Functions
 # ============================================================================
-# Search in files (using ripgrep)
-search() { rg -i "$1" . ; }
-
 # Create and enter directory
 mkcd() { mkdir -p "$1" && cd "$1"; }
